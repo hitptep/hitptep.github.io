@@ -36,3 +36,4 @@ gem "webrick", "~> 1.7"
 
  gem "jekyll-theme-chirpy"
 
+gem "github-pages", group: :jekyll_plugins
