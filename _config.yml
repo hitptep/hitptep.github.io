@@ -30,7 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hitptep
 
 # Build settings
-theme: jekyll-theme-chirpy
+theme: jekyll-theme-next
 plugins:
   - jekyll-feed
 
