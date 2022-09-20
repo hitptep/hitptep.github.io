@@ -1,81 +1,53 @@
-# Site settings
-title: Waterworks Blog
-SEOTitle: 水厂的博客 | Waterworks Blog
-header-img: img/home_head.jpeg
-email: waterplant@petalmail.com
-description: ""
-keyword: ""
+encoding: utf-8
 
+# SEO相关信息
+title: TMaize Blog
+description: TMaize的个人博客
+keywords: TMaize,Blog,Java,Html,JavaScript
+author: TMaize
+footerText: 'Copyright © 2016 皖ICP备16016174号'
 
-
-
-# SNS settings
-RSS: false
-#weibo_username:     huxpro
-zhihu_username:     gong-de-shui-han
-#github_username:    hitptep
-#gitee_username:  zzylive
-#facebook_username:  huxpro
-
-
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
+# 这些不要动
+permalink: /posts/:year/:month/:day/:title.html
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
 
+# 域名配置
+# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
+domainUrl: 'https://hitptep.github.io'
+baseurl: ''
 
+# 吐个槽地址，会在chat页面中重定向到该地址
+tucaoUrl: https://github.com/hitptep/hitptep.github.io/issues
 
-# Disqus settings
-#disqus_username: _your_disqus_short_name_
+# 菜单
+# 必填字段 title: '文本' url: '链接'
+# 可选字段 target: '_blank' 新页面打开 
+menu:
+  - title: 首页
+    url: /
+  - title: 归类
+    url: /pages/categories.html
+  - title: 搜索
+    url: /pages/search.html
+  - title: 友链
+    url: /pages/links.html
+  - title: 留言
+    url: /pages/chat.html
+  - title: 关于
+    url: /pages/about.html
 
-# Duoshuo settings
-#duoshuo_username: huxblog
-# Share component is depend on Comment so we can NOT use share only.
-#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# 点击页面文字冒出特效,不需要请设置为false
+extClickEffect: true
 
+# Google Adsense,不需要请设置为false
+# _includes/ext-adsense.html 里面修改为自己的配置
+extAdsense: false
 
+# 数学公式支持，比较影响加载速度,不需要请设置为false
+extMath: false
 
-
-# Analytics settings
-# Baidu Analytics
-#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-# Google Analytics
-
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一名熟练使用 rm -rf */ 的程序员"
-sidebar-avatar: /img/myphoto.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Friends
-
+# 友情链接
