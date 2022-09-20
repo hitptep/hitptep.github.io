@@ -13,8 +13,8 @@ keyword: ""
 RSS: false
 #weibo_username:     huxpro
 zhihu_username:     gong-de-shui-han
-github_username:    hitptep
-gitee_username:  zzylive
+#github_username:    hitptep
+#gitee_username:  zzylive
 #facebook_username:  huxpro
 
 
@@ -66,7 +66,7 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一不小心rm -rf /*。"
+sidebar-about-description: "一名熟练使用 rm -rf */ 的程序员"
 sidebar-avatar: /img/myphoto.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
