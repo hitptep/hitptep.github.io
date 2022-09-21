@@ -3,21 +3,20 @@ layout: mypost
 title: 留言板
 ---
 
-<p>使用Github Issue功能</p>
 
 
-<div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+
+<div id="gitalk-container"></div>
 <script>
-    var gitment = new Gitment({
-        //id: '页面 ID', // 可选。默认为 location.href
-        owner: 'hitptep',
+    var gitalk = new Gitalk({
+        clientID: '27af1283c58e7e146c8d',
+        clientSecret: 'f606076eec5d050c5e70ef18c5cc7cab1d63ce1e',
         repo: 'https://github.com/hitptep/hitptep.github.io',
-        oauth: {
-            client_id: '27af1283c58e7e146c8d',
-            client_secret: 'f606076eec5d050c5e70ef18c5cc7cab1d63ce1e',
-        },
+        owner: 'hitptep',
+        admin: ['hitptep'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
     })
-    gitment.render('container')
+
+    gitalk.render('gitalk-container')
 </script>
