@@ -1,11 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: TMaize Blog
-description: TMaize的个人博客
-keywords: TMaize,Blog,Java,Html,JavaScript
-author: TMaize
-footerText: 'Copyright © 2016 皖ICP备16016174号'
+title: 水厂的博客 | Waterworks Blog
+description: 普普通通的博客
+keywords: Waterworks,Blog,Python,Linux,Docker,Windows,深度学习,量化
+author: 水厂
+footerText: 'Copyright © Waterworks 2022'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html

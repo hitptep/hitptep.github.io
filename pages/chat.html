@@ -3,10 +3,21 @@ layout: mypost
 title: 留言板
 ---
 
-<p>留言功能已迁移到"吐个槽"，跳转中...</p>
+<p>使用Github Issue功能</p>
 
-<p><a href="{{ site.tucaoUrl }}">如未跳转请手动点击这里</a></p>
 
-<script language="javascript" type="text/javascript">
-  window.location.href = '{{site.tucaoUrl}}'
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        //id: '页面 ID', // 可选。默认为 location.href
+        owner: 'hitptep',
+        repo: 'https://github.com/hitptep/hitptep.github.io',
+        oauth: {
+            client_id: '9c07c007dea6eb3acf9d',
+            client_secret: '50162d30e7a2ffa02d5b223d1e7ebea3ad7cf356',
+        },
+    })
+    gitment.render('container')
 </script>
