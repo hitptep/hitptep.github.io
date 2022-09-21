@@ -20,8 +20,6 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 domainUrl: 'https://hitptep.github.io'
 baseurl: ''
 
-# 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://github.com/hitptep/hitptep.github.io/issues
 
 # 菜单
 # 必填字段 title: '文本' url: '链接'
