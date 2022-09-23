@@ -8,7 +8,7 @@ title: 友情链接
 ```
 名称：帮安倍晋三敞开胸怀
 描述：一款模拟击杀安倍晋三的在线音游
-地址：https://hitptep.github.io/helpabe
+地址：https://hitptep.github.io/helpabe/
 ```
 
 <ul>
