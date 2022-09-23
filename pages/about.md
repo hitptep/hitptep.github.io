@@ -22,6 +22,6 @@ title: 关于我
 
 - QQ&nbsp;&nbsp;&nbsp;&nbsp;: 1823251391
 
-- Email&nbsp;: [waterplant@petalmail](waterplant@petalmail.com)
+- Email&nbsp;: waterplant@petalmail.com
 
 - GitHub: [https://github.com/hitptep](https://github.com/hitptep)
