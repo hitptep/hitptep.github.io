@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 使用Nonebot2和go-cqhttps搭建QQbot
-categories: [QQbot]
+categories: [Python]
 extMath: false
 
 ---
